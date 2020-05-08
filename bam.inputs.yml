@@ -1,0 +1,7 @@
+SortByReadName: true
+OutputFormat: BAM
+Output: "samtoolssortoutput.bam"  # default value of type "string".
+InputFile:  # type "File"
+    class: File
+    path: /Users/osmanw01/git/cwl-example/HG00381.3.M_120202_7.bam
+
